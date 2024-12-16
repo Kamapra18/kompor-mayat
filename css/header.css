@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/backg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar{
+    align-items: center;
+    background-color: #e3c4ae;
+    color: black;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .logo img{
+    margin-left: 8px;
+    width: 12%;
+}
+
+.navbar-nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    font-size: 1rem;
+}
+
+.navbar-nav a:hover{
+    border-radius: 20px;
+    transform: scale(1.1);
+    color: #b48868;
+    background-color: white;
+}
+

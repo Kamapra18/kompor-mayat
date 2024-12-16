@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/backg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: #e3c4ae;
+    color: black;
+    display: flex;
+    
+}
+
+.navbar{
+    align-items: center;
+    display: flex;
+    padding: 0.1 1%;
+    justify-content: space-between;
+    gap: 80px;
+    
+}
+
+.logo img{
+    margin-left: 10px;
+    width: 10%;
+}
+
+.navbar-nav{
+    display: flex;
+    gap: 20px;
+    position: fixed;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    font-size: 1rem;
+}
+
+.navbar-nav a:hover{
+    transform: scaleX(1.1);
+    color: aliceblue;
+    
+}
+
+
+
